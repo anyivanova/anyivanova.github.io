@@ -1,0 +1,19 @@
+.footer {
+    min-height: 100px;
+    background-color: #000000;
+    &__copyright {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 100px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+        span {
+            font-weight: 700;
+        }
+        &:before {
+            content:"\00A9";
+            margin-right: 5px;
+        }
+    }
+
+}

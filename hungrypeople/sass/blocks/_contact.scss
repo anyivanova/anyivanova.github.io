@@ -1,0 +1,75 @@
+.contact {
+    min-height: 647px;
+    padding: 100px 80px;
+
+    &__text {
+        margin: 0 auto;
+        max-width: 565px;
+    }
+
+    &__subtitle {
+        margin-top: 13px;
+    }
+
+    &__form {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        textarea,
+        button {
+            margin-top: 10px;
+        }
+    }
+
+    &__contacts {
+        margin-top: 10px;
+        width: 50%;
+        font-size: 12px;
+        font-weight: 700;
+        color: rgba(51, 51, 51, 0.5);
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        a {
+            font-size: 12px;
+            font-weight: 700;
+            color: rgba(51, 51, 51, 0.5);
+        }
+    }
+
+    &__addr,
+    &__phones,
+    &__email {
+        display: block;
+        margin-right: 25px;
+    }
+
+    &__addr,
+    &__phones,
+    &__email {
+        &:before {
+            font-family: "Font Awesome 5 Free";
+            font-size: 14px;
+            font-weight: 700;
+            content: "\f3c5";
+            margin-right: 5px;
+            color: #e8c300;
+        }
+    }
+
+    &__phones {
+        &:before {
+            content: "\f095";
+        }
+    }
+
+    &__email {
+        &:before {
+            content: "\f0e0";
+        }
+    }
+
+}

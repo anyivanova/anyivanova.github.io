@@ -1,0 +1,36 @@
+.form {
+
+    input,
+    select,
+    textarea {
+        padding: 20px;
+        width: 277px;
+        height: 60px;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        color: grey;
+        border: none;
+        background-color: rgba(51, 51, 51, 0.2);
+        border-radius: 10px;
+
+    }
+
+    input {
+        &::placeholder {
+            color: grey;
+        }
+    }
+
+    &_contact {
+        input {
+            width: 33%;
+        }
+
+        textarea {
+            width: 100%;
+            height: 120px;
+            resize: none;
+        }
+    }
+}

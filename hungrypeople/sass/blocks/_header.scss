@@ -1,0 +1,140 @@
+.header {
+    position: relative;
+    min-height: 800px;
+    padding: 0 80px;
+    background: url(../img/header-bg.jpg) center center / cover no-repeat;
+
+    &__nav {
+        min-height: 175px;
+        padding: 25px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__nav-item {
+        width: 58px;
+        margin-top: 18px;
+        font-size: 12px;
+        font-weight: bold;
+        color: #ffffff;
+        text-align: center;
+        text-transform: uppercase;
+
+        &:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+
+    &__logo {
+        &:before {
+            display: block;
+            width: 530px;
+            height: 1px;
+            content: '';
+            position: absolute;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            top: 100px;
+            left: 70px;
+        }
+
+        &:after {
+            display: block;
+            width: 530px;
+            height: 1px;
+            content: '';
+            position: absolute;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            top: 100px;
+            right: 70px;
+        }
+    }
+
+    &__about {
+        margin: 0 auto;
+    }
+
+    &__schedule {
+        position: absolute;
+        top: 450px;
+        left: -40px;
+        transform: rotate(-90deg);
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    &__name {
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+
+    &__subtitle {
+        font-weight: bold;
+        font-size: 12px;
+        letter-spacing: 8px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        font-family: 'Banny Bold Round';
+        color: #fff;
+        font-size: 96px;
+        text-transform: uppercase;
+        text-align: center;
+
+        &:after {
+            display: block;
+            margin: 0 auto;
+            content: '';
+            width: 60px;
+            height: 5px;
+            background: #E8C300;
+            border-radius: 50px;
+        }
+    }
+
+    &__buttons {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    &__button {
+        margin: 0 20px;
+    }
+
+    &__social {
+        position: absolute;
+        top: 360px;
+        right: 80px;
+        font-size: 20px;
+        font-weight: normal;
+        color: #ffffff;
+    }
+
+    &__social-item {
+        display: block;
+        position: relative;
+        margin-bottom: 50px;
+        font-size: 20px;
+        font-weight: normal;
+        text-align: center;
+        color: #ffffff;
+
+        &:before {
+            position: absolute;
+            content: '';
+            width: 60px;
+            height: 60px;
+            top: -50%;
+            left: -100%;
+            border: solid 1px rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+        }
+    }
+}

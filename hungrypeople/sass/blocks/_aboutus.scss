@@ -1,0 +1,25 @@
+.aboutUs {
+    min-height: 675px;
+    background-color: #ffffff;
+    padding: 50px 80px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__text {
+        max-width: 700px;
+        padding: 0 50px;
+    }
+
+    &__subtitle {
+        margin-top: 13px;
+    }
+
+    &__descr {
+        margin-top: 20px;
+    }
+
+}

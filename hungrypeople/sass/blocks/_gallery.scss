@@ -1,0 +1,11 @@
+.gallery {
+    max-height: 360px;
+    background-color: #000;
+
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+}

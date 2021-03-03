@@ -1,0 +1,28 @@
+.specialties {
+    min-height: 675px;
+    padding: 50px 80px;
+    background: url(../img/vegdish-bg.jpg) center center / cover no-repeat;
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &__text {
+        max-width: 700px;
+        padding: 0 50px;
+    }
+
+    &__subtitle {
+        margin-top: 13px;
+    }
+
+    &__descr {
+        margin-top: 20px;
+    }
+
+    &__img {
+        margin-left: 80px;
+    }
+}

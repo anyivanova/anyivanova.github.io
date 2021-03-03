@@ -1,0 +1,24 @@
+.imgWithRectangle {
+    display: block;
+    position: relative;
+    max-width: 600px;
+
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 29%;
+        left: 69%;
+        width: 250px;
+        height: 250px;
+        border-radius: 5px;
+        border: solid 20px #e8c300;
+    }
+
+    &_left {
+        &:after {
+            content: '';
+            left: -69px;
+        }
+    }
+}
