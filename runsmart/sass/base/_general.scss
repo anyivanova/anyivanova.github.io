@@ -1,0 +1,32 @@
+* {
+    font-family: 'Museo Sans';
+}
+
+.container {
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: $almost_black;
+    text-transform: uppercase;
+
+    &_left {
+        color: #fff;
+        font-size: 36px;
+        text-align: left;
+        line-height: 35px;
+    }
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0;
+}
